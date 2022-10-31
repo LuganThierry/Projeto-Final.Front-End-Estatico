@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(237, 228, 217);
+}
+
+/* HEADER */
+
+html {
+    background-color: rgb(237, 228, 217);
+}
+
+/* HEADER */
+
+.title {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.title {
+    max-width: 90%;
+    margin: 3% 0 0 5%;
+}
+
+.title-logo {
+    max-width: 50%;
+}
+
+.title-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.title-info li {
+    max-height: 70px;
+    font-size: 12px;
+    margin: 10px;
+    border: 2px solid #777777;
+    border-radius: 10px;
+}
+
+.title-info li:hover {
+    border: 3px solid rgb(199,39,103);
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    padding: 1.2% 2%;
+    width: 18%;
+}
+
+.item p {
+    margin: 2px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    max-width: 25%;
+}
+
+#item-assin {
+    background-color: rgb(199,39,103);
+}
+
+.assin {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: black;
+}
+
+.dash {
+    margin: 0 3%;
+}
+
+
+
+
+/* MAIN */
+.main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.form {
+    margin: 5%;
+}
+
+.assinatura {
+    font-size: 30px;
+    margin: 15px 0;
+    font-weight: bolder;
+}
+
+.preco {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.preencha, .parte {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+
+.label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+.input:hover {
+    border: 2px solid rgb(199,39,103);
+}
+
+.checkbox {
+    margin: 0 10px 20px 0;
+}
+
+.enviar {
+    width: 25%;
+    padding: 15px 0;
+    background-color: #888888;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.enviar:hover {
+    background-color: green;
+    transform: scale(1.1);
+}
+
+
+/* FOOTER */
+.footer {
+    height: 85px;
+    background-color: rgb(199,39,103);
+}

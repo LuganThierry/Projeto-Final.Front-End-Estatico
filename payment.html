@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornaleto - Pagamento</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="form-style.css">
+    <link rel="shortcut icon" href="./images/newspaper.png">
+    <!-- Inspiração: https://premium.canalmeio.com.br/assinatura/ -->
+</head>
+<body>
+    <header>
+        <div class="title">
+            <div onclick="window.location='home.html'" style="cursor: pointer;"><img class="title-logo" src="./images/logo01.png" alt="logo Jornaleco"></div>
+            <ul class="title-info">
+                <li class="item">
+                    <img class="image" src="./images/thermometer.png" alt="temperatura">
+                    <div class="info">
+                        <p>min: 8°C</p>
+                        <p>max: 16°C</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img class="image" src="./images/money.png" alt="dólar">
+                    <div class="info">
+                        <p>Dol: R$ 5,22</p>
+                        <p>Eur: R$ 5,15</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <hr class="dash">    
+    </header>
+
+    <main class="main">
+        <form class="form">
+            <p class="parte">Parte 02 de 02</p>
+            <h2 class="assinatura">Assinatura do Jornaleco</h2>
+            <p class="preco">R$ 20,00</p>
+            <p class="preencha">Preencha os dados do cartão para prosseguir</p>
+
+            <fieldset>
+                <label class="label" style="font-size: 25px;" for="cartao">Cartão de crédito</label>
+                <input class="input" type="text" id="cartao" placeholder="Nome impresso no cartão" required>
+                <input class="input" type="text" maxlength="16" id="cartao" placeholder="Número do cartão" required>
+                <input class="input" type="text" maxlength="7" id="cartao" placeholder="MM/AAAA" required>
+                <input class="input" type="text" maxlength="3" id="cartao" placeholder="CVV" required>
+
+            </fieldset>
+
+            <fieldset>
+                <button class="enviar" type="submit">Concluir</button>
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+</html>

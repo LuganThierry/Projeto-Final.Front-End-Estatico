@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornaleco</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="home-style.css">
+    <link rel="shortcut icon" href="./images/newspaper.png">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <div  onclick="window.location='home.html'" style="cursor: pointer;"><img class="title-logo" src="./images/logo01.png" alt="logo Jornaleco"></div>
+            <ul class="title-info">
+                <li class="item">
+                    <img class="image" src="./images/thermometer.png" alt="temperatura">
+                    <div class="info">
+                        <p>min: 8°C</p>
+                        <p>max: 16°C</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <img class="image" src="./images/money.png" alt="dólar">
+                    <div class="info">
+                        <p>Dol: R$ 5,22</p>
+                        <p>Eur: R$ 5,15</p>
+                    </div>
+                </li>
+                <li id="item-assin" class="item" onclick="window.location='form.html'" style="cursor: pointer;">
+                    <div href="form.html" class="info">
+                        <p class="assin">Assinar</p>
+                        <p class="assin">Jornaleco</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <hr class="dash">    
+        <div class="ads">
+            <img class="moveis" src="./images/ads.jpg" alt="Propaganda de móveis">
+        </div>
+    </header>
+
+    <main>
+        <div id="eleicao">
+            <table class="table">
+                <thead>
+                    <th colspan="2">Presidente</th>
+                    <th colspan="2">São Paulo</th>
+                    <th colspan="2">Rio Grande do Sul</th>
+                    <th colspan="2">Espírito Santo</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="eleito">Lula</td>
+                        <td>Bolsonaro</td>
+                        <td class="eleito">Tarcísio</td>
+                        <td>Haddad</td>
+                        <td class="eleito">Eduardo Leite</td>
+                        <td>Onyx</td>
+                        <td class="eleito">Casagrande</td>
+                        <td>Manato</td>
+                    </tr>
+                    <tr>
+                        <td class="eleito">50,90%</td>
+                        <td>49,10%</td>
+                        <td class="eleito">52,27%</td>
+                        <td>44,73%</td>
+                        <td class="eleito">57,12%</td>
+                        <td>42,88%</td>
+                        <td class="eleito">53,80%</td>
+                        <td>46,20%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="noticias">
+            <div class="grid">
+                <div class="not" id="A" onclick="window.location='noticia-A.html'" style="cursor: pointer;">
+                    <h2 class="not-title">Notícia A: aqui fica a notícia A</h2>
+                    <div class="cont">
+                        <div>
+                            <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                            <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                            <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                            <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                        </div>
+                        <div>
+                            <img class="news" src="./images/foto.jpg" alt="">
+                        </div>
+                    </div>              
+                </div>
+                <div class="not" id="B">
+                    <h2 class="not-title">Notícia B: aqui fica a notícia B</h2>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                </div>
+                <div class="not" id="C">
+                    <h2  class="not-title">Notícia C: aqui fica a notícia C</h2>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                </div>
+                <div class="not" id="D">
+                    <div class="cont02">
+                        <h2 class="not-title">Notícia D: aqui fica a notícia D</h2>
+                        <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                        <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                        <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                        <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                        <img class="news02" src="./images/foto2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="not" id="E">
+                    <h2 class="not-title">Notícia E: aqui fica a notícia E</h2>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                </div>
+                <div class="not" id="F">
+                    <h2 class="not-title">Notícia F: aqui fica a notícia F</h2>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                </div>
+                <div class="not" id="G">
+                    <h2  class="not-title">Notícia G: aqui fica a notícia G</h2>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                </div>
+                <div class="not" id="H">
+                    <h2  class="not-title">Notícia H: aqui fica a notícia H</h2>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                </div>
+                <div class="not" id="I">
+                    <h2  class="not-title">Notícia I: aqui fica a notícia I</h2>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                </div>
+                <div class="not" id="J">
+                    <h2 class="not-title">Notícia J: aqui fica a notícia J</h2>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                    <p class="not-para">Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Detraxit consequat et quo num tendi nada.Quem manda na minha terra sou euzis!</p>
+                </div>
+              </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+</body>
+</html>
