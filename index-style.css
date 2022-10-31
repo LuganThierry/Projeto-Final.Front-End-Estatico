@@ -134,6 +134,7 @@ html {
 }
 
 .not-para {
+    width: 100%;
     font-size: 13px;
     text-indent: 17px;
     margin: 4px 0 0 0;
